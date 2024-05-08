@@ -1,0 +1,311 @@
+main {
+  #search {
+    width: 100%;
+    background: #17293d;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.57);
+    padding: 30px 100px;
+    height: 13vh;
+    .input {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      border-bottom: 2px solid white;
+
+      input {
+        background-color: transparent;
+        outline: none;
+        width: 80%;
+        height: 5vh;
+        border: none;
+        color: white;
+        &::placeholder {
+          color: white;
+          font-size: 16px;
+        }
+      }
+      .fa-magnifying-glass {
+        color: #c8afa8;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+  #xeberler {
+    width: 100%;
+    margin: 50px auto;
+    background: #e7e7e7;
+    height: 55vh;
+    font-family: sans-serif;
+
+    .head {
+      padding-top: 40px;
+      margin-left: 110px;
+      h2 {
+        color: #000;
+        font-size: 24px;
+      }
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      margin: 30px 0;
+
+      .card1 {
+        position: relative;
+        width: 370px;
+        height: 400px;
+        background-image: url("https://www.millikitabxana.az/upload/news/thumbs/ol3JSOnfYwVHTJj_2HiicyhBzP_oQZLS.jpg");
+        background-repeat: no-repeat;
+        .text {
+          background: rgba(10, 82, 133, 0.78);
+          color: white;
+          width: 370px;
+          height: 100px;
+          position: absolute;
+          bottom: 120px;
+          left: 0;
+          padding: 20px;
+          h4 {
+            margin: 15px 0;
+          }
+        }
+      }
+      .card2 {
+        width: 370px;
+        height: 400px;
+        background-image: url("https://www.millikitabxana.az/upload/news/thumbs/0pF-J5xn1T-lOUXopYSadUQ-SemvKbbb.png");
+        background-repeat: no-repeat;
+        position: relative;
+        .text {
+          background: rgba(10, 82, 133, 0.78);
+          color: white;
+          width: 370px;
+          height: 100px;
+          position: absolute;
+          bottom: 120px;
+          left: 0;
+          padding: 20px;
+          h4 {
+            margin: 15px 0;
+          }
+        }
+      }
+      .card3 {
+        width: 370px;
+        height: 400px;
+        background-image: url("https://www.millikitabxana.az/upload/news/thumbs/RkBtb-s-OoVJ5_kL6frGudTQ9rwAIs5d.jpeg");
+        background-repeat: no-repeat;
+        position: relative;
+        .text {
+          background: rgba(10, 82, 133, 0.78);
+          color: white;
+          width: 370px;
+          height: 100px;
+          position: absolute;
+          bottom: 120px;
+          left: 0;
+          padding: 20px;
+          h4 {
+            margin: 15px 0;
+          }
+        }
+      }
+    }
+  }
+  #baza {
+    width: 90%;
+    margin: 50px auto;
+    height: 90vh;
+    font-family: sans-serif;
+    .head1 {
+      padding-top: 40px;
+      margin-left: 50px;
+      h2 {
+        color: #000;
+        font-size: 24px;
+      }
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      margin: 30px 0;
+
+      .card4 {
+        position: relative;
+        width: 370px;
+        height: 250px;
+        background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/_hm59ecVcysZ3Kwp-FBvKsbRcNGz4LWS.png");
+        background-repeat: no-repeat;
+        .text1 {
+          background: rgba(0, 0, 0, 0.6);
+          padding: 10px 30px;
+          color: white;
+          width: 370px;
+          height: 35px;
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          h4 {
+          }
+        }
+      }
+      .card5 {
+        width: 370px;
+        height: 250px;
+        background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/7JVrdZ4LG70qs3DYtLoz2AGCvRPU_03T.jpg");
+        background-repeat: no-repeat;
+        position: relative;
+        .text1 {
+          background: rgba(0, 0, 0, 0.6);
+          padding: 10px 30px;
+          color: white;
+          width: 370px;
+          height: 35px;
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          h4 {
+          }
+        }
+      }
+      .card6 {
+        width: 370px;
+        height: 250px;
+        background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/QCe_JdVORP7XNjfWSWleTzEJI3AgCI7Y.jpg");
+        background-repeat: no-repeat;
+        position: relative;
+        .text1 {
+          background: rgba(0, 0, 0, 0.6);
+          padding: 10px 30px;
+          color: white;
+          width: 370px;
+          height: 35px;
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          h4 {
+          }
+        }
+      }
+      .card7 {
+        width: 370px;
+        height: 250px;
+        background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/ISmwmc80CVafqbx1hbzyRjpOzbPtZ4KF.jpg");
+        background-repeat: no-repeat;
+        position: relative;
+        .text1 {
+          background: rgba(0, 0, 0, 0.6);
+          padding: 10px 30px;
+          color: white;
+          width: 370px;
+          height: 35px;
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          h4 {
+           
+          }
+        }
+      }
+      .card8 {
+        width: 370px;
+        height: 250px;
+        background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/LRVti1w7RN_CVcTGclKYsztohrACj_G_.jpg");
+        background-repeat: no-repeat;
+        position: relative;
+        .text1 {
+          background: rgba(0, 0, 0, 0.6);
+          padding: 10px 30px;
+          color: white;
+          width: 370px;
+          height: 35px;
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          h4 {
+        
+          }
+        }
+      }
+      .card9 {
+        width: 370px;
+        height: 250px;
+        background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/O-tuQkHV5PLki3hlgTobv23jY1UJ2bSg.jpg");
+        background-repeat: no-repeat;
+        position: relative;
+        .text1 {
+          background: rgba(0, 0, 0, 0.6);
+          padding: 10px 30px;
+          color: white;
+          width: 370px;
+          height: 35px;
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          h4 {
+           
+          }
+        }
+      }
+    }
+  }
+  #xidmet{
+    width: 89%;
+    margin: 50px auto;
+    height: 60vh;
+    font-family: sans-serif;
+    .head1 {
+      padding-top: 40px;
+      margin-left: 50px;
+      h2 {
+        color: #000;
+        font-size: 24px;
+      }
+    }
+    .cards{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+      margin-top: 50px;
+      .card{
+        background: #1A4A68;
+        width: 250px;
+        height: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .circle{
+          width: 120px;
+          height: 120px;
+          border: 4px solid #D3BBB7;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img{
+            width: 45px;
+          }
+        }
+        p{
+          margin-top: 28px;
+          font-size: 20px;
+          text-transform: lowercase;
+          color: white;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}

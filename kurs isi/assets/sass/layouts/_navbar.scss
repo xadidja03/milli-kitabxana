@@ -1,0 +1,30 @@
+.navbar {
+  width: 85%;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  .logo {
+    img {
+      width: 270px;
+      margin: 0 10px;
+    }
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    li {
+      a {
+        color: black;
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+  }
+}
+

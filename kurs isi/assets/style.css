@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+header .header {
+  background: #17293d;
+  padding: 0 40px;
+  width: 85%;
+  height: 6vh;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+header .header .menu li {
+  font-size: 13px;
+  font-weight: 600;
+}
+header .header .menu li a {
+  color: #c8afa8;
+}
+header .header .lang ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+header .header .lang ul li {
+  color: #c8afa8;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.navbar {
+  width: 85%;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.navbar .logo img {
+  width: 270px;
+  margin: 0 10px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.navbar ul li a {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+footer {
+  width: 100%;
+  height: 25vh;
+  background: #17293d;
+  color: #bbdaed;
+  font-family: sans-serif;
+  padding: 60px 30px;
+}
+footer .footer .number {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto auto;
+}
+footer .footer h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+footer .footer .fa-brands {
+  margin-top: 20px;
+  margin-right: 7px;
+  font-size: 17px;
+}
+footer .footer .two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .footer .two h3 {
+  margin-bottom: 20px;
+}
+footer .footer .two a {
+  color: #bbdaed;
+  margin: 5px 0;
+}
+
+main #search {
+  width: 100%;
+  background: #17293d;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.57);
+  padding: 30px 100px;
+  height: 13vh;
+}
+main #search .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 2px solid white;
+}
+main #search .input input {
+  background-color: transparent;
+  outline: none;
+  width: 80%;
+  height: 5vh;
+  border: none;
+  color: white;
+}
+main #search .input input::-moz-placeholder {
+  color: white;
+  font-size: 16px;
+}
+main #search .input input::placeholder {
+  color: white;
+  font-size: 16px;
+}
+main #search .input .fa-magnifying-glass {
+  color: #c8afa8;
+  font-size: 20px;
+  cursor: pointer;
+}
+main #xeberler {
+  width: 100%;
+  margin: 50px auto;
+  background: #e7e7e7;
+  height: 55vh;
+  font-family: sans-serif;
+}
+main #xeberler .head {
+  padding-top: 40px;
+  margin-left: 110px;
+}
+main #xeberler .head h2 {
+  color: #000;
+  font-size: 24px;
+}
+main #xeberler .cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 30px 0;
+}
+main #xeberler .cards .card1 {
+  position: relative;
+  width: 370px;
+  height: 400px;
+  background-image: url("https://www.millikitabxana.az/upload/news/thumbs/ol3JSOnfYwVHTJj_2HiicyhBzP_oQZLS.jpg");
+  background-repeat: no-repeat;
+}
+main #xeberler .cards .card1 .text {
+  background: rgba(10, 82, 133, 0.78);
+  color: white;
+  width: 370px;
+  height: 100px;
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  padding: 20px;
+}
+main #xeberler .cards .card1 .text h4 {
+  margin: 15px 0;
+}
+main #xeberler .cards .card2 {
+  width: 370px;
+  height: 400px;
+  background-image: url("https://www.millikitabxana.az/upload/news/thumbs/0pF-J5xn1T-lOUXopYSadUQ-SemvKbbb.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+main #xeberler .cards .card2 .text {
+  background: rgba(10, 82, 133, 0.78);
+  color: white;
+  width: 370px;
+  height: 100px;
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  padding: 20px;
+}
+main #xeberler .cards .card2 .text h4 {
+  margin: 15px 0;
+}
+main #xeberler .cards .card3 {
+  width: 370px;
+  height: 400px;
+  background-image: url("https://www.millikitabxana.az/upload/news/thumbs/RkBtb-s-OoVJ5_kL6frGudTQ9rwAIs5d.jpeg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+main #xeberler .cards .card3 .text {
+  background: rgba(10, 82, 133, 0.78);
+  color: white;
+  width: 370px;
+  height: 100px;
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  padding: 20px;
+}
+main #xeberler .cards .card3 .text h4 {
+  margin: 15px 0;
+}
+main #baza {
+  width: 90%;
+  margin: 50px auto;
+  height: 90vh;
+  font-family: sans-serif;
+}
+main #baza .head1 {
+  padding-top: 40px;
+  margin-left: 50px;
+}
+main #baza .head1 h2 {
+  color: #000;
+  font-size: 24px;
+}
+main #baza .cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 30px 0;
+}
+main #baza .cards .card4 {
+  position: relative;
+  width: 370px;
+  height: 250px;
+  background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/_hm59ecVcysZ3Kwp-FBvKsbRcNGz4LWS.png");
+  background-repeat: no-repeat;
+}
+main #baza .cards .card4 .text1 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 30px;
+  color: white;
+  width: 370px;
+  height: 35px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+main #baza .cards .card5 {
+  width: 370px;
+  height: 250px;
+  background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/7JVrdZ4LG70qs3DYtLoz2AGCvRPU_03T.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+main #baza .cards .card5 .text1 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 30px;
+  color: white;
+  width: 370px;
+  height: 35px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+main #baza .cards .card6 {
+  width: 370px;
+  height: 250px;
+  background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/QCe_JdVORP7XNjfWSWleTzEJI3AgCI7Y.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+main #baza .cards .card6 .text1 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 30px;
+  color: white;
+  width: 370px;
+  height: 35px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+main #baza .cards .card7 {
+  width: 370px;
+  height: 250px;
+  background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/ISmwmc80CVafqbx1hbzyRjpOzbPtZ4KF.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+main #baza .cards .card7 .text1 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 30px;
+  color: white;
+  width: 370px;
+  height: 35px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+main #baza .cards .card8 {
+  width: 370px;
+  height: 250px;
+  background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/LRVti1w7RN_CVcTGclKYsztohrACj_G_.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+main #baza .cards .card8 .text1 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 30px;
+  color: white;
+  width: 370px;
+  height: 35px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+main #baza .cards .card9 {
+  width: 370px;
+  height: 250px;
+  background-image: url("https://www.millikitabxana.az/upload/ebases/thumbs/O-tuQkHV5PLki3hlgTobv23jY1UJ2bSg.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+main #baza .cards .card9 .text1 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 30px;
+  color: white;
+  width: 370px;
+  height: 35px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+main #xidmet {
+  width: 89%;
+  margin: 50px auto;
+  height: 60vh;
+  font-family: sans-serif;
+}
+main #xidmet .head1 {
+  padding-top: 40px;
+  margin-left: 50px;
+}
+main #xidmet .head1 h2 {
+  color: #000;
+  font-size: 24px;
+}
+main #xidmet .cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 50px;
+}
+main #xidmet .cards .card {
+  background: #1A4A68;
+  width: 250px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main #xidmet .cards .card .circle {
+  width: 120px;
+  height: 120px;
+  border: 4px solid #D3BBB7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #xidmet .cards .card .circle img {
+  width: 45px;
+}
+main #xidmet .cards .card p {
+  margin-top: 28px;
+  font-size: 20px;
+  text-transform: lowercase;
+  color: white;
+  letter-spacing: 1px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+footer {
+  width: 100%;
+  height: 25vh;
+  background: #17293d;
+  color: #bbdaed;
+  font-family: sans-serif;
+  padding: 60px 30px;
+  .footer {
+    .number {
+      display: grid;
+      justify-content: space-around;
+      grid-template-columns: auto auto auto auto;
+    }
+    h3 {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .fa-brands {
+      margin-top: 20px;
+      margin-right: 7px;
+      font-size: 17px;
+    }
+    .two {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h3 {
+        margin-bottom: 20px;
+      }
+      a {
+        color: #bbdaed;
+        margin: 5px 0;
+      }
+    }
+  }
+}
